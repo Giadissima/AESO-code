@@ -1,0 +1,352 @@
+$date
+	Sat Oct 19 10:30:13 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main $end
+$var wire 2 ! z [1:0] $end
+$var reg 1 " s $end
+$var reg 2 # x0 [1:0] $end
+$var reg 2 $ x1 [1:0] $end
+$var integer 32 % i [31:0] $end
+$var integer 32 & nfor [31:0] $end
+$scope module mux $end
+$var wire 1 " s $end
+$var wire 2 ' x0 [1:0] $end
+$var wire 2 ( x1 [1:0] $end
+$var wire 2 ) z [1:0] $end
+$scope begin genblk1[0] $end
+$scope module mux $end
+$var wire 1 " s $end
+$var wire 1 * x0 $end
+$var wire 1 + x1 $end
+$var wire 1 , z $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$scope module mux $end
+$var wire 1 " s $end
+$var wire 1 - x0 $end
+$var wire 1 . x1 $end
+$var wire 1 / z $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0/
+0.
+0-
+0,
+0+
+0*
+b0 )
+b0 (
+b0 '
+b101 &
+b0 %
+b0 $
+b0 #
+0"
+b0 !
+$end
+#3
+b1 %
+#5
+1+
+b1 $
+b1 (
+#6
+b10 %
+#8
+0+
+1.
+b10 $
+b10 (
+#9
+b11 %
+#11
+1+
+b11 $
+b11 (
+#12
+b100 %
+#14
+b1 !
+b1 )
+1,
+1*
+0+
+0.
+b1 #
+b1 '
+b0 $
+b0 (
+#15
+b101 %
+#17
+1+
+b1 $
+b1 (
+#18
+b110 %
+#20
+0+
+1.
+b10 $
+b10 (
+#21
+b111 %
+#23
+1+
+b11 $
+b11 (
+#24
+b1000 %
+#26
+0,
+b10 !
+b10 )
+1/
+0*
+1-
+0+
+0.
+b10 #
+b10 '
+b0 $
+b0 (
+#27
+b1001 %
+#29
+1+
+b1 $
+b1 (
+#30
+b1010 %
+#32
+0+
+1.
+b10 $
+b10 (
+#33
+b1011 %
+#35
+1+
+b11 $
+b11 (
+#36
+b1100 %
+#38
+b11 !
+b11 )
+1,
+1*
+0+
+0.
+b11 #
+b11 '
+b0 $
+b0 (
+#39
+b1101 %
+#41
+1+
+b1 $
+b1 (
+#42
+b1110 %
+#44
+0+
+1.
+b10 $
+b10 (
+#45
+b1111 %
+#47
+1+
+b11 $
+b11 (
+#48
+b10000 %
+#50
+0,
+b0 !
+b0 )
+0/
+0*
+0-
+0+
+0.
+1"
+b0 #
+b0 '
+b0 $
+b0 (
+#51
+b10001 %
+#53
+b1 !
+b1 )
+1,
+1+
+b1 $
+b1 (
+#54
+b10010 %
+#56
+0,
+b10 !
+b10 )
+1/
+0+
+1.
+b10 $
+b10 (
+#57
+b10011 %
+#59
+b11 !
+b11 )
+1,
+1+
+b11 $
+b11 (
+#60
+b10100 %
+#62
+0,
+b0 !
+b0 )
+0/
+1*
+0+
+0.
+b1 #
+b1 '
+b0 $
+b0 (
+#63
+b10101 %
+#65
+b1 !
+b1 )
+1,
+1+
+b1 $
+b1 (
+#66
+b10110 %
+#68
+0,
+b10 !
+b10 )
+1/
+0+
+1.
+b10 $
+b10 (
+#69
+b10111 %
+#71
+b11 !
+b11 )
+1,
+1+
+b11 $
+b11 (
+#72
+b11000 %
+#74
+0,
+b0 !
+b0 )
+0/
+0*
+1-
+0+
+0.
+b10 #
+b10 '
+b0 $
+b0 (
+#75
+b11001 %
+#77
+b1 !
+b1 )
+1,
+1+
+b1 $
+b1 (
+#78
+b11010 %
+#80
+0,
+b10 !
+b10 )
+1/
+0+
+1.
+b10 $
+b10 (
+#81
+b11011 %
+#83
+b11 !
+b11 )
+1,
+1+
+b11 $
+b11 (
+#84
+b11100 %
+#86
+0,
+b0 !
+b0 )
+0/
+1*
+0+
+0.
+b11 #
+b11 '
+b0 $
+b0 (
+#87
+b11101 %
+#89
+b1 !
+b1 )
+1,
+1+
+b1 $
+b1 (
+#90
+b11110 %
+#92
+0,
+b10 !
+b10 )
+1/
+0+
+1.
+b10 $
+b10 (
+#93
+b11111 %
+#95
+b11 !
+b11 )
+1,
+1+
+b11 $
+b11 (
+#96
+b100000 %
