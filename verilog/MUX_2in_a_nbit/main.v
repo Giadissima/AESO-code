@@ -5,7 +5,7 @@ module main;
   reg s;
 
   wire [N-1:0] z;
-  MUX_2INnbit mux (z,x0,x1,s);
+  MUX_2INnbit #(N) mux (z,x0,x1,s); // #1 significa che sto impostando il nostro parametro N
   integer i;
   integer nfor=(N*2)+1;
 
