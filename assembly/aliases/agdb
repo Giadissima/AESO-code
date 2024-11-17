@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Esempio: agdb par1 par2... dove par1 e par2 sono due parametri da riga di comando da passare a a.out
+
+qemu-arm -g 12345 a.out $* &
+gdb-multiarch -q --nh -ex ' set architecture arm' -ex ' file a.out' -ex ' target remote localhost:12345'

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Esempio: agcc main_nome.c file1.s -> compila il main scritto in c che usa una funzione scritta in ARMv7 dentro file1
+
+arm-linux-gnueabihf-gcc $* -static -ggdb3
