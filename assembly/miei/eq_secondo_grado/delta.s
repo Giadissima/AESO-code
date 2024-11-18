@@ -9,7 +9,7 @@
 delta:
   push {r3} @ preservo r3 perchp voglio usarlo e non so cosa ho dentro
   MUl r1,r1,r1 @ b^2
-  MOV r3, r0 @ 4*a TODO
+  MUL r3, r0, #4
   MUL r3, r3, r2 @ 4*a*c
   SUB r1, r1, r3 @ b^2-4*a*c
 fine: 
