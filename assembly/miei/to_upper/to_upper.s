@@ -8,14 +8,14 @@
 to_upper:
 
   MOV r3, #0 @int i=0;
-  for:
+  while:
     LDRB r2, [r0, r3]  @ v[i]
     CMP r2, #0 @ null terminated string => se è 0 vuol dire che la stringa è finita
     BEQ fine
     CMP r2, #96
     bhi true_if
     endif:  ADD r3, r3, #1 @ i++
-  B for
+  B while
 
 true_if:
   CMP r2, #123
