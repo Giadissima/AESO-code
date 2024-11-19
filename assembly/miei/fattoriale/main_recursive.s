@@ -24,6 +24,7 @@ main:
   BL atoi @ ora r0 contiene il numero da fattorizzare
   push {r0}
   BL fatt_rec
+  
   mov r2, r0 @ r2 = fattoriale(n)
   pop {r1} @ r1 = n
   LDR r0, =msg3
