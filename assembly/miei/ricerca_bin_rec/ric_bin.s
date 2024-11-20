@@ -1,12 +1,12 @@
 .data
   @variabili globali qua...
 .text
-.global ricerca_bin_rec @ r0 <- v
+.global ricerca_bin @ r0 <- v
               @ r1 <- size
               @ r2 <- x
               @ r0 <- risultato - indice dell'elemento trovato, -1 se non trovato
-.type ricerca_bin_rec, %function
-ricerca_bin_rec:
+.type ricerca_bin, %function
+ricerca_bin:
   push {r4} @ i registri r4-r11,r13-15 (SP, LR, PC) devono mantenere i valori precedenti alla chiamata di funzione
   MOV r3, #0 @int i=0;
   for:
